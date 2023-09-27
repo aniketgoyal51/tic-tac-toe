@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: blue;
+}
+h1{
+    font-size: 6em;
+    font-family: sans-serif;
+    color: rgb(255, 200, 0);
+    -webkit-text-stroke: 5px white;
+    text-align: center;
+}
+.boxes{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 111px 111px 111px;
+    grid-template-rows: 111px 111px 111px ;
+    justify-content: center;
+    
+}
+.box{
+    background-color: white;
+    border-radius: 10px;
+}
+h4{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
